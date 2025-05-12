@@ -40,11 +40,12 @@ with masks of foreground.
 ## Evaluation
 ![evaluation](md-imgs/evaluation.png)
 
-|                                                              |  | mAP50 | mAP50:100 |
-|--------------------------------------------------------------|--|-------|-----------|
-| [Yolo5s](https://github.com/ultralytics/yolov5)              |  |       |           |
-| [Yolo5l](https://github.com/ultralytics/yolov5)              |  |       |           |
-| [Yolo5x](https://github.com/ultralytics/yolov5)              |  |       |           |
-| [nanodet](https://github.com/RangiLyu/nanodet)               |  |       |           |
-| [Faster-RCNN](https://github.com/jwyang/faster-rcnn.pytorch) |  |       |           |
-| [Re-detr](https://docs.ultralytics.com/models/rtdetr/)                                                  |  |       |           |
+
+| models                                                       | Params | mAP50 | mAP50:95 |
+|--------------------------------------------------------------|--------|-------|----------|
+| [Yolo5n](https://github.com/ultralytics/yolov5)              | 1.9    | 60.4  | 53.7     |
+| [Yolo5s](https://github.com/ultralytics/yolov5)              | 7.2    | 62.7  | 55.4     |
+| [Yolo5l](https://github.com/ultralytics/yolov5)              | 46.5   | 64.7  | 57.1     |
+| [nanodet](https://github.com/RangiLyu/nanodet)               | 2.44   | 61.8  | 59.2     |
+| [Faster-RCNN](https://github.com/jwyang/faster-rcnn.pytorch) | 44.3   | 63.8  | 58.7     |
+| [Re-detr](https://docs.ultralytics.com/models/rtdetr/)       | 41.3   | 66.1  | 62.8     |
