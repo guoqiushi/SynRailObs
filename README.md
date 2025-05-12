@@ -28,11 +28,11 @@ of railway areas
 * [Harmonizer](https://github.com/ZHKKKe/Harmonizer): Used to perform harmonization
 with masks of foreground.
 * [SAM](https://github.com/facebookresearch/segment-anything): tool to segment forefround.
-* [stable-diffusion](https://huggingface.co/stabilityai/stable-diffusion-2-1): Generate synthetic obstacles
-* [DTD](https://www.robots.ox.ac.uk/~vgg/data/dtd/): Describable Textures Dataset 
-* [obj365](https://www.objects365.org/overview.html): Serving as obstacle source
+* [stable-diffusion](https://huggingface.co/stabilityai/stable-diffusion-2-1): Generate synthetic obstacles.
+* [DTD](https://www.robots.ox.ac.uk/~vgg/data/dtd/): Describable Textures Dataset.
+* [obj365](https://www.objects365.org/overview.html): Serving as obstacle source.
 * [Penn-Fudan Database for Pedestrian](https://www.cis.upenn.edu/~jshi/ped_html/): Serving as pedestrians sources
-* [Rocks](https://www.kaggle.com/datasets/salmaneunus/rock-classification): rocks datasets
+* [Rocks](https://www.kaggle.com/datasets/salmaneunus/rock-classification): rocks datasets.
 
 ## Pipeline
 ![intro](md-imgs/workflow.png)
