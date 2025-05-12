@@ -21,4 +21,4 @@ bg: background images and corresponding json files, which are annotations
 of railway areas
 obj: potential obstacles  
 sam-extract-obj.py: extract obj from obj images based on points prompts
-gen: generate synthetic images based on objs and background images
+gen.ipynb: generate synthetic images based on objs and background images
