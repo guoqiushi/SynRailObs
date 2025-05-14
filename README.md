@@ -1,11 +1,17 @@
 # SynRailObs
 
-## A synthetic dataset on Obstacle detection in Railway scenario
+ A synthetic dataset on Obstacle detection in Railway scenario
 
 ## Introduction
 ![intro](md-imgs/samples.png)
 
-
+## Download
+[Kaggle](https://www.kaggle.com/datasets/qiushi910/synrailobs): current obstacle categories:
+* vehicles
+* persons
+* animals
+* moto
+Each directory contain images, masks and bounding box annotations(yolo format)。
 ## project structure
 ```
 SynRailObs
