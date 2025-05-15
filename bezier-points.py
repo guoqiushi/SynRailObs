@@ -1,7 +1,8 @@
 import random
 import math
-
-
+from PIL import Image, ImageDraw
+import numpy as np
+import io
 def bezier_curve(points, num=100):
     n = len(points) - 1
     t_values = np.linspace(0, 1, num=num)
