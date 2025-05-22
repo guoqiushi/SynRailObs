@@ -6,7 +6,11 @@
 ![intro](md-imgs/samples.png)
 
 ## Download
-[Kaggle](https://www.kaggle.com/datasets/qiushi910/synrailobs): current obstacle categories:
+data: [Kaggle](https://www.kaggle.com/datasets/qiushi910/synrailobs)
+
+paper: [SynRailObs: A Synthetic Dataset for Obstacle Detection in Railway Scenarios](https://arxiv.org/pdf/2505.10784)
+
+current obstacle categories:
 * vehicles
 * persons
 * animals
