@@ -23,13 +23,14 @@ SynRailObs
   |-sam_vit_h.pth
 |-sam-extract-obj.py
 |-gen.ipynb
+|-bezier-points.py
 ```
 * **bg**: background images and corresponding json files, which are annotations
 of railway areas  
 * **obj**: potential obstacles.
 * **sam-extract-obj.py**: extract obj from obj images based on points prompts  
 * **gen.ipynb**: generate synthetic images based on obj and background images
-
+* **bezier-points.py**: randomly generate bezier-points
 ## Auxilary Tools and datasets
 * [Harmonizer](https://github.com/ZHKKKe/Harmonizer): Used to perform harmonization
 with masks of foreground.
@@ -55,3 +56,14 @@ with masks of foreground.
 | [nanodet](https://github.com/RangiLyu/nanodet)               | 2.44   | 61.8  | 59.2     |
 | [Faster-RCNN](https://github.com/jwyang/faster-rcnn.pytorch) | 44.3   | 63.8  | 58.7     |
 | [Re-detr](https://docs.ultralytics.com/models/rtdetr/)       | 41.3   | 66.1  | 62.8     |
+
+# Cite
+If you use SynRailObs in your research, please cite our paper.
+```
+@article{guo2025synrailobs,
+  title={SynRailObs: A Synthetic Dataset for Obstacle Detection in Railway Scenarios},
+  author={Guo, Qiushi and Rambach, Jason},
+  journal={arXiv preprint arXiv:2505.10784},
+  year={2025}
+}
+```
